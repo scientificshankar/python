@@ -1,0 +1,9 @@
+n=int(input())
+l=str(n)
+sum=0
+for i in l:
+    sum=sum+int(i)**3
+if sum==n:
+    print("given number armstrong number")
+else:
+    print("given number is not armstrong number")
