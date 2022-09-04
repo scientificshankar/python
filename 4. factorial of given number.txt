@@ -7,4 +7,4 @@ else:
     mul=1
     for i in range(1,n+1):
         mul=mul*i
-        print("factorial of given number is",mul)        
+    print("factorial of given number is",mul)        
