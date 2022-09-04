@@ -1,0 +1,17 @@
+num=int(input())
+
+def reverse_number(num):
+    rev=0
+    sign=1
+    if num<0:
+        sign=-1
+        num=num*-1
+    while (num>0):
+        sum=num%10
+        rev=rev*10+sum
+        num=num//10
+        
+    if not -12355466523232<rev<1254869523133:
+        return 0
+    return sign*rev
+print(reverse_number(num))

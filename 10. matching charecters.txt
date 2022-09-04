@@ -1,0 +1,6 @@
+name=input()
+l=set()
+for i in name:
+    if name.count(i)>1:
+        l.add(i)
+print("matching charecters of given string {} is {}".format(name,l))       
